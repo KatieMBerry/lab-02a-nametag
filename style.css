@@ -1,0 +1,48 @@
+body {
+   background: #FFDA22; 
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+
+}
+
+main {
+    background-color: red;
+    border-radius: 5px;
+    width: 375px;
+    text-align: center;
+}
+.top{
+    height: 120px;
+    border-radius: 5px;
+    color: white;
+}
+
+.middle{
+    background-color: white;
+    height: 115px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    height: 20px;
+}
+
+.hello {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.my-name-is {
+    font-size: 2rem;
+}
+
+.name {
+    font-size: 1.5rem;
+
+}
