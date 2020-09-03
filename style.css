@@ -1,11 +1,10 @@
 body {
-   background: #FFDA22; 
-   font-family: Arial, Helvetica, sans-serif;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-
+    background: #FFDA22; 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
@@ -23,7 +22,6 @@ main {
 .middle{
     background-color: white;
     height: 115px;
-    font-family: cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +40,13 @@ main {
     font-size: 2rem;
 }
 
-.name {
-    font-size: 1.5rem;
-
+.buttons{
+    margin: 20px;
+    padding: 10px;
 }
+
+#my-name {
+    font-size: 4rem;
+    font-family: monospace;
+}
+
